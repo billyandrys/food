@@ -1,0 +1,30 @@
+<App />
+    <Landpage /> (Imagen de fondo + botón hacia Home)
+
+    <Home />
+        <Navbar />
+            <Searchbar /> (Input de búsqueda + botón)
+            <Filtros />
+            <Ordenamientos />
+        <Cards /> (Contenedor) => redux para traer el estado
+            <Card /> (* 9) ( Enlace para el detalle )
+                <div /> Contenedor (acá va el enlace)
+                    <img /> 
+                    <h3 />  Nombre
+                    <ul />   Tipos de dieta
+                        <li /> Tipo de dieta
+        <Footer /> (Paginado)  => redux para modificar el estado
+
+    <Detalle />
+        <div/ >
+            <img /> 
+            <h3 />  Nombre
+            <p />   Descripción corta
+
+    <NuevaReceta /> (Formulario controlado)
+        <div /> (Contenedor)
+            <h3 />  (Nombre)
+            <p />   (Resumen del plato)
+            ???     (Puntuación)
+            ???     (Nivel de "comida saludable")
+            <p />   (Paso a paso)
