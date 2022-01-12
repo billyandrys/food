@@ -5,7 +5,7 @@ import map from 'Map.txt'
 function App() {
   return (
     <div className="App">
-      <h1>Hola Vadith</h1>
+      <h1>Hola Grupo!!</h1>
       <TextFileReader
         txt={map}
       />

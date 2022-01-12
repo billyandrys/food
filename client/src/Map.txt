@@ -8,11 +8,11 @@
             <Ordenamientos />
         <Cards /> (Contenedor) => redux para traer el estado
             <Card /> (* 9) ( Enlace para el detalle )
-                <div /> Contenedor (acá va el enlace)
+                <div />      Contenedor (acá va el enlace)
                     <img /> 
-                    <h3 />  Nombre
-                    <ul />   Tipos de dieta
-                        <li /> Tipo de dieta
+                    <h2 />       Nombre
+                    <ul />       Tipos de dieta
+                        <li />      Tipo de dieta
         <Footer /> (Paginado)  => redux para modificar el estado
 
     <Detalle />
@@ -22,7 +22,7 @@
             <p />   Descripción corta
 
     <NuevaReceta /> (Formulario controlado)
-        <div /> (Contenedor)
+        <div />     (Contenedor)
             <h3 />  (Nombre)
             <p />   (Resumen del plato)
             ???     (Puntuación)

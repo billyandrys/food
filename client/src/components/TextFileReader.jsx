@@ -48,7 +48,9 @@ class TextFileReader extends React.Component {
 						textAlign: "left",
 						// fontSize: "1.2em",
 						fontFamily: "monospace",
-						whiteSpace: "pre-wrap"
+						whiteSpace: "pre-wrap",
+						margin: "20px",
+						padding: "20px"
 					}}
 					>{this.state.text}</pre>
 				{/* {this.state.text.split("\n").map((item, key) => {
