@@ -1,12 +1,12 @@
 // ID: id,
-// Nombre: title, 
-// Imagen: image
-// Resumen del plato: summary
-// Puntuación: spoonacularScore,
-// Nivel de "comida saludable": healthScore,
-// Tipo del plato: dishTypes
-// Tipo de dieta: diet
-// Paso a paso: analyzedInstructions
+// Nombre: title, STRING
+// Imagen: image STRING
+// Resumen del plato: summary, STRING
+// Puntuación: spoonacularScore, NUMBER
+// Nivel de "comida saludable": healthScore, NUMBER
+// Tipo del plato: dishTypes, [STRINGS]
+// Tipo de dieta: diets, [STRINGS]
+// Paso a paso: analyzedInstructions, [OBJETOS]
 
 {
     "results": [
@@ -18911,10 +18911,10 @@
 }
 
 // {
-//     [
+//     "results": [
 //         {},
 //         {},
-//         {}
+//         ...
 //     ],
 //      "offset": 0,
 //      "number": 100,
