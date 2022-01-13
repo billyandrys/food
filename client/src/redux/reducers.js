@@ -1,4 +1,4 @@
-import GET_ALL_RECIPES from 'redux/actions.js';
+import { GET_ALL_RECIPES } from 'redux/actions.js';
 
 const initialState = {
     recipes: []
@@ -9,10 +9,22 @@ const rootReducer = (state = initialState, action) => {
         case GET_ALL_RECIPES:
             return {
                 ...state,
-                recipes: action.payload
+                recipes: action.payload.map(recipe => {
+                    return {
+                        id: recipe.id,
+                        title: recipe.title,
+                        image: recipe.image,
+                        diets: recipe.diets,
+                        summary: recipe.summary,
+                        dishTypes: recipe.dishTypes,
+                        healthScore: recipe.healthScore,
+                        spoonacularScore: recipe.spoonacularScore,
+                        analyzedInstructions: recipe.analyzedInstructions
+                    }
+                })
             }
         default:
-            return {...state};
+            return { ...state };
     }
 }
 

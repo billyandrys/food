@@ -3,8 +3,8 @@ import React from "react";
 function Card(props) {
     return (
         <div> {/* <React.Fragment> */}
-            <img src={props.img} alt="props.name" className="cardImage" />
-            <h2>{props.name}</h2>
+            <img src={props.image} alt="props.title" className="cardImage" />
+            <h2>{props.title}</h2>
             <ul>
                 {/* {props.dietTypes.map((item, key) => { // []
                     return <li key={key}>{item}</li>;

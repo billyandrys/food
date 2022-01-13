@@ -1,10 +1,16 @@
 import React from 'react';
-import redux from 'redux';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+
+import { getAllRecipes } from 'redux/actions.js';
 
 import Card from 'components/Card.jsx'
 
+
 function Cards() {
+
+    const dispatch = useDispatch();
+
+    dispatch(getAllRecipes());
 
     const recipes = useSelector(state => state.recipes);
 
