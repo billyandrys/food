@@ -9,7 +9,7 @@ function Card(props) {
                 {/* {props.dietTypes.map((item, key) => { // []
                     return <li key={key}>{item}</li>;
                 })} */}
-                {props.dietTypes.join(", ") /* [tipo1, tipo2, tipo3] => "tipo1, tipo2, tipo3" */} 
+                {props.diets.join(", ") /* [tipo1, tipo2, tipo3] => "tipo1, tipo2, tipo3" */} 
             </ul>
         </div>
     )
