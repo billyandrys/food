@@ -7,7 +7,7 @@ const initialState = {
 const rootReducer = (state = initialState, action) => {
     switch (action.type) {
         case GET_ALL_RECIPES:
-            console.log(action.payload)
+            // console.log(action.payload)
             return {
                 ...state,
                 recipes: action.payload.results.map(recipe => {
