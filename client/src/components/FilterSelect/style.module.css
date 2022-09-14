@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+
+}
+
+
+button{
+    border-radius: 25px 0 0 25px;
+    color: rgb(12, 11, 8);
+    background-color: rgb(255, 245, 98);
+    font-size: 19px;
+    cursor: pointer;
+    color: rgb(10, 9, 9);
+    height: 2.3em;
+   
+    
+}
+.selectRigth {
+    border-radius: 0 25px  25px 0 ;
+    color: rgb(12, 11, 8);
+    background-color: rgb(255, 245, 98);
+    font-size: 19px;
+    cursor: pointer;
+    color: rgb(10, 9, 9);
+}
+ 
