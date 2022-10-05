@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
-    "start": "nodemon -L",
+    
+    "start": "",
     "test": "mocha -w ./tests/**/*.spec.js"
   },
   "author": "Henry",
@@ -35,3 +37,4 @@
     "supertest-session": "^4.1.0"
   }
 }
+ 

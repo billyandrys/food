@@ -30,3 +30,5 @@ conn.sync({ force: true }).then(() => {
     console.log('%s listening at 3005'); // eslint-disable-line no-console
   });
 });
+
+//nodemon -L  

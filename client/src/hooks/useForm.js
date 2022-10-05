@@ -19,7 +19,7 @@ const UseForm = (intialForm, validateForm)=>{
         handleChange(e)
         
         setErrors(validateForm(form))
-    }
+    }if
 
     const handleSubmit = ()=>{
         
